@@ -1,6 +1,6 @@
 ---
 resources:
-- name: attendee-service
+- name: attendee-service-source
   type: git
   source:
     uri: https://github.com/rajesh606081/pcf-attendee-service-code   #<----- REPLACE ME
