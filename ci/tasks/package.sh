@@ -14,6 +14,8 @@ if [ $jar_count -gt 1 ]; then
   exit 1
 fi
 
+
+
 find attendee-service/target -type f -name *.jar -exec cp "{}" package-output/attendee-service.jar \;
 
 echo "Done packaging"
